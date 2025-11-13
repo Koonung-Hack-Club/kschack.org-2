@@ -6,7 +6,7 @@ We are Koonung Hack Club, a makerspace, robotics team and coding club at Koonung
 
 
 
-Made with <3 by [Ryan](https://github.com/cybdo), [Cinar](https://github.com/rinnac), Ethan and Elena
+Made with <3 by [Ryan](https://github.com/cybdo), [Cinar](https://github.com/rinnac), [Lachie](https://github.com/joystiick), Ethan and Elena
 
 
 `Koonung Hack Club is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499)`

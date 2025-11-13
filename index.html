@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zigzag Background Pan Fast</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    background:
+      linear-gradient(135deg, #4f46e5 25%, transparent 25%) -50px 0,
+      linear-gradient(225deg, #4f46e5 25%, transparent 25%) -50px 0,
+      linear-gradient(315deg, #4f46e5 25%, transparent 25%),
+      linear-gradient(45deg, #4f46e5 25%, transparent 25%),
+      linear-gradient(to bottom, #3b82f6 0%, #2563eb 100%);
+    background-size:
+      100px 100px,
+      100px 100px,
+      100px 100px,
+      100px 100px,
+      100% 100%;
+    position: relative;
+    animation: panRight 10s linear infinite; /* much faster */
+  }
+
+  @keyframes panRight {
+    0% {
+      background-position:
+        -50px 0,
+        -50px 0,
+        0 0,
+        0 0,
+        0 0;
+    }
+    100% {
+      background-position:
+        250px 0,
+        250px 0,
+        300px 0,
+        300px 0,
+        0 0;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container"></div>
+</body>
+</html>
